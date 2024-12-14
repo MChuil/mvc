@@ -1,0 +1,8 @@
+14.Dic.2024
+
+1. Crear un nuevo controlador para "usuarios"
+2. Crear una vista en "clientes/index.php"
+3. Crear las siguientes rutas de tipo get: 
+        usuarios -> esta ruta debe mostrar la vista 'index.php' de clientes
+        usuarios/nombre -> Solo recibir el parametro de 'nombre' e imprimirlo
+4. Crear el o los metodos necesarios para cada ruta
