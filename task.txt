@@ -6,3 +6,7 @@
         usuarios -> esta ruta debe mostrar la vista 'index.php' de clientes
         usuarios/nombre -> Solo recibir el parametro de 'nombre' e imprimirlo
 4. Crear el o los metodos necesarios para cada ruta
+
+
+04.Enero.2024
+1. Iniciar a pasar SaludTime a MVC
