@@ -2,6 +2,7 @@
 
     use Lib\Route;
     use App\Controllers\HomeController;
+    use App\Controllers\UserController;
 
 
     Route::get('/', [HomeController::class, 'index']);
@@ -31,5 +32,12 @@
         return "Lenguaje: $language";
     });
 
+
+    Route::get('usuarios', [UserController::class, 'index']); // vista clientes/index.php
+    
+    Route::get('usuarios/:nombre', function($nombre) {
+        $controller = new UserController();
+        return $controller->showName($nombre); // Imprime 
+    });
 
     Route::dispatch();
